@@ -1,5 +1,5 @@
-using GramSchmidt
-using Base.Test
+using FactCheck
 
-# write your own tests here
-@test 1 == 1
+@runtest GramSchmidt TestGramSchmidt
+# The exitstatus is used by Travis
+exitstatus()
